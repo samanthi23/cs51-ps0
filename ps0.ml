@@ -21,7 +21,7 @@ sure that these statements all type-check after editing them.  You can
 do this by typing "make all" in the terminal. *)
 
 (* 1. Replace FIRST and LAST with your first and last name *)
-let name : (string * string) = ("FIRST", "LAST");;
+let name : (string * string) = ("Samanthi", "Jinadasa");;
 
 
 
@@ -38,7 +38,7 @@ let name : (string * string) = ("FIRST", "LAST");;
  *)
 type year = FirstYear | Sophomore | Junior | Senior | Other of string;;
 
-let class_year : year = Other "I haven't filled it in yet";;
+let class_year : year = Other "HarvardX student";;
 
 
 
@@ -46,7 +46,7 @@ let class_year : year = Other "I haven't filled it in yet";;
  * with a pattern shown in the type definition for cs50 below. *)
 type cs50 = Took | DidNotTake | Other of string;;
 
-let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
+let took_cs_50 : cs50 = Other "I haven't finished CS5- yet";;
 
 
 
@@ -54,7 +54,7 @@ let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
  * of your computer. *)
 type system = Mac | Windows10 | Windows7 | Linux | Other of string;;
 
-let my_system : system = Other "I haven't filled it out yet";;
+let my_system : system = Other "AWS";;
 
 
 
