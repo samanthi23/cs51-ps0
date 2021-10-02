@@ -21,7 +21,7 @@ sure that these statements all type-check after editing them.  You can
 do this by typing "make all" in the terminal. *)
 
 (* 1. Replace FIRST and LAST with your first and last name *)
-let name : (string * string) = ("Samanthi", "Jinadasa");;
+let name : (string * string) = ("Baghya", "Jinadasa");;
 
 
 
