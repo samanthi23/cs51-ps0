@@ -106,3 +106,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/ocaml,macos,linux,windows
+
+bin/
+local/
+usr/

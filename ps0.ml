@@ -21,7 +21,7 @@ sure that these statements all type-check after editing them.  You can
 do this by typing "make all" in the terminal. *)
 
 (* 1. Replace FIRST and LAST with your first and last name *)
-let name : (string * string) = ("Baghya", "Jinadasa");;
+let name : (string * string) = ("Samanthi", "Jinadasa");;
 
 
 
@@ -46,7 +46,7 @@ let class_year : year = Other "HarvardX student";;
  * with a pattern shown in the type definition for cs50 below. *)
 type cs50 = Took | DidNotTake | Other of string;;
 
-let took_cs_50 : cs50 = Other "I haven't finished CS5- yet";;
+let took_cs_50 : cs50 = Took";;
 
 
 
@@ -60,7 +60,7 @@ let my_system : system = Other "AWS";;
 
 (* 5. Replace the string below with a message to post to the problem
    set website. *)
-let exciting : string = "I'm excited about ....!" ;;
+let exciting : string = "I'm excited about coding !" ;;
 
 
 
@@ -107,7 +107,7 @@ We care about your responses and will use them to help guide us in
 creating future assignments.
 ......................................................................*)
 
-let minutes_spent () : int = failwith "not provided" ;;
+let minutes_spent () : int = 90;;
 
 
 (*......................................................................
